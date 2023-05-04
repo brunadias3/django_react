@@ -43,5 +43,8 @@ Para rodar o projeto:
 8. Entre na pasta do projeto com:
 ```cd myproject```
 
-9. Em seguida, é só rodar o projeto com:
-```python3 manage.py runserver```
+9. Sete a aplicação com o seu respectivo IP, no arquivo settings.py:
+```ALLOWED_HOSTS = ['SEU_IP']```
+
+10. Em seguida, é só rodar o projeto com:
+```python3 manage.py runserver 0.0.0.0:8000```
